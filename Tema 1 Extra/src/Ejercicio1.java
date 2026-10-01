@@ -12,10 +12,10 @@ public class Ejercicio1 {
         int suma, resta, multi;
         double division;
 
-        suma =num1 +num2;
-        resta =num1 -num2;
-        multi =num1 *num2;
-        division = (double)num1 / (double)num2;
+        suma = num1 + num2;
+        resta = num1 - num2;
+        multi = num1 * num2;
+        division = (double) num1 / (double) num2;
 
         System.out.println("La suma es " + suma);
         System.out.println("La resta es " + resta);
