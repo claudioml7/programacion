@@ -9,7 +9,11 @@ public class Ejercicio4 {
         String pass = "";
 
         do {
-            system
-        } while (pass != PASSWORD)
+            System.out.println("Introduce una contraseña");
+            pass = sc.nextLine();
+            if (!pass.equals(PASSWORD)){
+                System.out.println("Contraseña incorrecta");
+            }
+        } while (!pass.equals(PASSWORD));
     }
 }
