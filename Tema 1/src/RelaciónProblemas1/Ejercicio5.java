@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package RelaciónProblemas1;
+
 import java.util.Scanner;
 
 public class Ejercicio5 {

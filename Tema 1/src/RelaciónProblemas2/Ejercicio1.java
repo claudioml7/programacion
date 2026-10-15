@@ -1,6 +1,8 @@
+package RelaciónProblemas2;
+
 import java.util.Scanner;
 
-public class RP121 {
+public class Ejercicio1 {
     public static void main(String[] args) {
 
 
