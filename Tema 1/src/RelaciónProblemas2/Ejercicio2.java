@@ -13,7 +13,7 @@ public class Ejercicio2 {
         } while(num<0 || num>10);
 
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i <= 10; i++) {
             System.out.println(num + "x" + i + "=" + num*i);
 
         }
