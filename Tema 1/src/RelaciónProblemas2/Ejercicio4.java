@@ -5,6 +5,19 @@ import java.util.Scanner;
 public class Ejercicio4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Introduce un número");
+
+        int num;
+        int suma = 0;
+
+        do {
+            System.out.println("Introduzca un numero positivo");
+            num = sc.nextInt();
+        } while (num < 0);
+
+        for (int i = 0; i < num+1; i++) {
+            suma = suma +i;
+        }
+
+        System.out.println("La suma de los " + num + " primeros numeros es " + suma);
     }
 }
