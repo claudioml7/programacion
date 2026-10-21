@@ -1,3 +1,8 @@
+
+//1. Realizar un programa que lea un número entero por teclado e informe de si
+//        el número es par o impar (el cero se considera par).
+
+
 package RelaciónProblemas1;
 
 import java.util.Scanner;

@@ -1,3 +1,8 @@
+
+//4. Realizar un programa que lea la edad de una persona menor a 100 años e
+//        informe de si es un niño (0-12 años), un adolescente (13-17), un joven (18-
+//        29) o un adulto.
+
 package RelaciónProblemas1;
 
 import java.util.Scanner;

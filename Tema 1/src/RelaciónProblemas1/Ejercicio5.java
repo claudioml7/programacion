@@ -1,3 +1,8 @@
+
+//5. Realizar un programa que solicite 4 números e imprima la media de los
+//        números. También debe imprimir aquellos números que son superiores a la
+//        media.
+
 package RelaciónProblemas1;
 
 import java.util.Scanner;

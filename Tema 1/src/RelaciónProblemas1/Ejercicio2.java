@@ -1,3 +1,8 @@
+
+//2. Realizar un programa que solicite dos números por teclado e imprima en
+//        pantalla si son iguales, el primero mayor que el segundo o el primero más
+//        pequeño que el segundo.
+
 package RelaciónProblemas1;
 
 import java.util.Scanner;

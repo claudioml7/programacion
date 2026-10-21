@@ -1,3 +1,12 @@
+
+//4. Realizar un programa que lea un número estrictamente positivo N y
+//        muestre la suma de los N primeros números. Diseña el programa de forma
+//        que si N es incorrecto vuelva a solicitarse.
+//        Ejemplo:
+//        Introduce un número positivo: 4
+//        La suma de los 4 primeros números es: 10
+
+
 package RelaciónProblemas2;
 
 import java.util.Scanner;

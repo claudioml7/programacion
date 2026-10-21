@@ -1,3 +1,8 @@
+
+//6. Realizar un programa que lea dos números enteros cualesquiera numeroA
+//        y numeroB, y calcule el producto los números mediante sumas, es decir,
+//        sin usar el operador *.
+
 package RelaciónProblemas2;
 
 import java.util.Scanner;

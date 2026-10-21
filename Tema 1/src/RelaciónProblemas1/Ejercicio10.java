@@ -1,3 +1,8 @@
+
+//10.Realizar un programa que lea un carácter y dos números enteros por
+//        teclado. Si el carácter leído es un operador aritmético, calcular la operación
+//        correspondiente, si es cualquier otro debe mostrar un error.
+
 package RelaciónProblemas1;
 
 import java.util.Scanner;

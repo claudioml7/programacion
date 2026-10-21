@@ -1,3 +1,8 @@
+
+//6. Realizar un programa que solicite un carácter por teclado e informe por
+//        pantalla si el carácter es una vocal o no lo es. Si es una vocal mostrará el
+//        mensaje “Es la primera vocal (A)” o “Es la segunda vocal (E)”, etc.
+
 package RelaciónProblemas1;
 
 import java.util.Scanner;

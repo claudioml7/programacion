@@ -1,3 +1,11 @@
+
+//1. Realizar un programa que, dado un número introducido por el usuario, calcule su
+//        número a la inversa. Es decir, dada la entrada: 123456, el programa debe devolver
+//        654321. Para este programa, no se deben utilizar métodos de la clase String,
+//        Integer, o arrays; sólo deben utilizarse operaciones matemáticas. Ten en cuenta solo
+//        valores positivos.
+
+
 package RelaciónProblemas4;
 
 import java.util.Scanner;

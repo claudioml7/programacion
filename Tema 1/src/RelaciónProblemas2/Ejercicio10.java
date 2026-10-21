@@ -1,3 +1,11 @@
+
+//10.Realizar un programa que solicite un número entero positivo o cero y
+//        calcule su factorial. Diseñar el programa de forma que si algún dato es
+//        incorrecto vuelva a solicitarse.
+//        Factorial (0)=1
+//        Factorial (1)=1
+//        Factorial (N)=N* (N-1)* (N-2)* …......1
+
 package RelaciónProblemas2;
 
 import java.util.Scanner;

@@ -1,3 +1,12 @@
+
+//8. Realizar un programa que lea por teclado dos marcaciones de un reloj
+//        digital (horas, minutos, segundos) comprendidas entre las 0:0:0 y las
+//        23:59:59 e informe cual de ellas es mayor.
+//        Ejemplo:
+//        Hora 1: 12:35:37
+//        Hora 2: 12:38:36
+//        “Hora 2 es mayor”
+
 package RelaciónProblemas1;
 
 import java.util.Scanner;

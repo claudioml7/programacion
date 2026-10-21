@@ -1,3 +1,10 @@
+
+//2. Realizar un programa que solicite dos números, base y exponente, enteros
+//        positivos (incluido el 0), y que calcule la potencia (base elevado a
+//        exponente) a través de productos. Si los datos son incorrectos deberán
+//        volverse a solicitar.
+
+
 package RelaciónProblemas3;
 
 import java.util.Scanner;

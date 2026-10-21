@@ -1,3 +1,9 @@
+
+//3. Realizar un programa que solicite una cantidad de números que van a
+//        introducirse por teclado. Después, para cada uno de ellos que indique si el
+//        número es par o impar. Si la cantidad de números introducida es 0 o
+//        negativa volverá a solicitarse el dato.
+
 package RelaciónProblemas2;
 
 import java.util.Scanner;

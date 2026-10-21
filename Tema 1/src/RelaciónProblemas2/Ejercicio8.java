@@ -1,3 +1,13 @@
+
+//8. Realizar un programa que solicite un conjunto de números. Después de
+//        introducir cada número se realizará la pregunta: "¿Desea introducir más
+//        números (S/N)". Si la respuesta es 'S' se solicitará otro número. Cuando no
+//        desee introducir más números debe informar cual es el menor de los
+//        números introducidos.
+//        NOTA: Debe comprobarse que la respuesta es 'S' o 'N' y si no lo es, volver
+//        a pedirla.
+
+
 package RelaciónProblemas2;
 
 import java.util.Scanner;

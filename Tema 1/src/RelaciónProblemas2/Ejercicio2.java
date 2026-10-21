@@ -1,3 +1,14 @@
+
+//2. Realizar un programa que lea un número entero entre 0 y 10 y visualice su
+//        tabla de multiplicar.
+//        Por ejemplo si el numero es 7 debe aparecer
+//        Tabla del 7
+//        7*0=0
+//        7*1=7
+//        …..
+//        7*10=70
+
+
 package RelaciónProblemas2;
 
 import java.util.Scanner;
