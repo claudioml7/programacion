@@ -1,3 +1,5 @@
+package EjerciciosExtra;
+
 import java.util.Scanner;
 
 public class ArbolNavidad {

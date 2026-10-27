@@ -1,3 +1,5 @@
+package EjerciciosExtra;
+
 public class Ejercicio3 {
     public static void main(String[] args) {
         int suma = 0;
