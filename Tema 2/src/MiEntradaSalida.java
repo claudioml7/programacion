@@ -63,7 +63,7 @@ public class MiEntradaSalida {
         return caracterLeido;
     }
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
             /*String nombre = leerCadena("¿Cómo te llamas?");
             System.out.println("Hola " + nombre);*/
 
