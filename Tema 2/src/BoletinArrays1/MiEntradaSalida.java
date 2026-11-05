@@ -1,4 +1,5 @@
-import java.util.Locale;
+package BoletinArrays1;
+
 import java.util.Scanner;
 
 public class MiEntradaSalida {
