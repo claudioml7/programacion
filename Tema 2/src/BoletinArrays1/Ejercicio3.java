@@ -1,0 +1,73 @@
+package BoletinArrays1;
+
+//3. Crea un programa que pregunte cuántos elementos tendremos en un array de
+//enteros. Posteriormente se preguntarán tantos números como haya indicado el
+//usuario. Posteriormente, mostraremos por pantalla el mayor, el menor y la media. Si
+//el número mayor o menor están repetidos, deberá indicarse cuántas veces se repite.
+//Por ejemplo:
+//Introduzca las posiciones que tendrá el array: 5
+//Introduzca el número 1: 4
+//Introduzca el número 2: -1
+//Introduzca el número 3: 9
+//Introduzca el número 4: 5
+//Introduzca el número 5: 9
+//El mayor número introducido es 9 (se repite 2 veces)
+//El menor número introducido es -1
+//La media de los números introducidos es: 5.2//
+
+import java.util.Scanner;
+
+public class Ejercicio3 {
+    static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int mayor = Integer.MIN_VALUE;
+        int menor = Integer.MAX_VALUE;
+        boolean repeticionMenor = false;
+        int contadorMenor = 1;
+        boolean repeticionMayor = false;
+        int contadorMayor = 1;
+        double suma = 0.0;
+
+        System.out.print("Introduce el numero de elementos del array: ");
+        int numElementos = Integer.parseInt(sc.nextLine());
+
+        int[] miArray = new int[numElementos];
+
+        for (int i = 0; i < miArray.length; i++) {
+            System.out.printf("Introduce el numero %d: ", (i+1));
+            miArray[i] = Integer.parseInt(sc.nextLine());
+        }
+
+        for (int i = 0; i < miArray.length; i++) {
+            suma += miArray[i];
+            if (miArray[i] == menor) {
+                repeticionMenor = true;
+                contadorMenor++;
+            } else if (miArray[i] < menor) {
+                menor = miArray[i];
+                contadorMenor = 1;
+            }
+
+            if (miArray[i] == mayor) {
+                repeticionMayor = true;
+                contadorMayor++;
+            } else if (miArray[i] > mayor) {
+                mayor = miArray[i];
+                contadorMayor = 1;
+            }
+        }
+
+        if (repeticionMenor) {
+            System.out.printf("El menor numero introducido es %d (se repite %d veces)%n", menor, contadorMenor);
+        } else {
+            System.out.printf("El menor numero introducido es %d%n", menor);
+        }
+        if (repeticionMayor) {
+            System.out.printf("El mayor numero introducido es %d (se repite %d veces)%n", mayor, contadorMayor);
+        } else {
+            System.out.printf("El mayor numero introducido es %d%n", mayor);
+        }
+        System.out.printf("La media de los numeros es: %f%n", (suma/ miArray.length));
+    }
+}
