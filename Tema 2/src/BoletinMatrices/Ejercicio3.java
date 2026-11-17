@@ -6,14 +6,16 @@ package BoletinMatrices;
 //0 2 7
 
 public class Ejercicio3 {
-    public static void imprimirMatriz(int [][] matriz){
-
-        for (int fila = 0; fila < matriz.length; fila++) {
-
-            for (int columna = 0; columna < matriz[fila]; j++) {
-                matriz [i][j];
+    public static void matrizALinea(int[][] matriz) {
+        for (int i = 0; i < matriz.length; i++) {
+            for (int j = 0; j < matriz[i].length; j++) {
+                System.out.print(matriz[i][j] + " ");
             }
-            System.out.println(matriz);
         }
+    }
+
+    static void main(String[] args) {
+        int[][] matriz = {{1,2,3},{4,5,6}};
+        matrizALinea(matriz);
     }
 }
